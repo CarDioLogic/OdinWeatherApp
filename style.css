@@ -1,0 +1,67 @@
+body{
+    font-family: Arial;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    padding-inline: 2%;
+
+}
+
+.container svg{
+    margin-right: 10px;
+}
+
+.details{
+    margin-left:40px;
+    width: 30%
+}
+.detailsBox{
+    margin-left:20px;
+    width: 100%;
+}
+
+.details div, .detailsBox div{
+    display:flex;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom: 5px;
+    padding-inline: 15px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.detailsBox div{
+    width: 10rem;
+}
+
+.detailsBox div p{ 
+    margin-block: 5px;
+}
+
+.box{
+    border: solid 1px black;
+    border-radius: 20px;
+    padding-inline: 10px;
+    margin-block: 20px;
+    margin-right: 20px;
+}
+
+.details div p{
+    margin: 10px;
+}
+
+#temperature{
+    margin-block: 30px;
+    font-size:100px;
+}
+
+.searchBox{
+    margin-left: auto;
+}
+
+#description{
+    margin: 0px;
+    font-style: italic;
+}
